@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+
+
+
+  <title>Check Point HTML</title>
+
+</head>
+<body>
+
+<!-- header -->
+<header>
+<h1 style="background-color :DodgerBlue;">  Navbar</h1>
+
+<nav>
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#Work">Work</a></li>
+    <li><a href="#Resume">Resume</a></li>
+    <li><a href="#Contact">Contact</a></li>
+</ul>
+</nav>
+
+
+</header>
+
+<!-- main -->
+<main>
+
+<section id="home">
+
+        <video width="500" controls>
+          <source src="videos/vue.mp4" type="video/mp4" />
+        </video>
+        <br />
+        <img
+          src="https://images.unsplash.com/photo-1659542891330-b2969fb0741e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80"
+          alt="Italian Trulli"
+          width="500"
+          height="400"
+        />
+        <p
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br />
+          Suscipit architecto voluptas nesciunt hic praesentium nostrum eaque
+          dignissimos facilis sapiente, totam,<br />
+          distinctio repudiandae qui mollitia vitae at exercitationem dolorem!
+          Excepturi, culpa.</p>
+
+        </section>
+        <section id="about">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ukecIFE6Now"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="Work">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ukecIFE6Now"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="Resume">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ukecIFE6Now"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="Contact">
+          <form>
+            <label for="firstname">First Name :</label><br />
+            <input
+              type="text"
+              id="firstname"
+              placeholder="enter your first name"
+            /><br />
+            <label for="lastname">Last Name :</label><br />
+            <input type="text" id="lastname" 
+            placeholder="enter your last name"/>
+            
+            <br />
+
+
+            <label for="email">Email :</label><br />
+            <input type="email" id="email" 
+            placeholder="enter your email"/>
+            
+            <br />
+
+            <label for="Date">Date :</label><br />
+            <input type="Date" id="Date" 
+            placeholder="enter your Date of Birth"/>
+
+            <br />
+            <button>Submit</button>
+          </form>
+          </iframe>
+
+</main>
+<footer>
+  <a href="https://www.facebook.com/" target="_top"
+  ><i class="fa-brands fa-facebook"></i
+></a>
+<a href="https://www.instagram.com/" target="_top"
+  ><i class="fa-brands fa-instagram"></i
+></a>
+<a href="https://www.linkedin.com/" target="_top"
+  ><i class="fa-brands fa-linkedin"></i
+></a>
+<br />
+<p>&copy gomycode</p>
+
+
+</footer>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
